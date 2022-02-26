@@ -1,0 +1,52 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include",
+						"/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11/include-fixed",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkDirectories" : 
+					[
+						"/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc/aarch64-apple-darwin21/11",
+						"/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11/gcc",
+						"/opt/homebrew/Cellar/gcc/11.2.0_3/lib/gcc/11",
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib"
+					],
+					"linkFrameworkDirectories" : 
+					[
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks"
+					],
+					"linkLibraries" : 
+					[
+						"gcc_s.1.1",
+						"gcc",
+						"gcc"
+					]
+				},
+				"path" : "/opt/homebrew/Cellar/gcc/11.2.0_3/bin/gcc-11",
+				"version" : "11.2.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,8 +1,8 @@
 #include <stdio.h>
-int (main)
+int main()
 {
 	int a;
-	sacnf("%d",&a);
+	scanf("%d",&a);
 	printf("HelloWorld!%d",a);
 	return 0;
 }
