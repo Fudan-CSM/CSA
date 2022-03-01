@@ -74,7 +74,7 @@ build cmake_object_order_depends_target_CSA: phony || CMakeFiles/CSA.dir
 
 build CMakeFiles/CSA.dir/main.c.o: C_COMPILER__CSA_Debug /Users/raindrops/Documents/CSM/github/demo/CSA/main.c || cmake_object_order_depends_target_CSA
   DEP_FILE = CMakeFiles/CSA.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -std=gnu11
+  FLAGS = -g -arch arm64 -std=gnu11
   OBJECT_DIR = CMakeFiles/CSA.dir
   OBJECT_FILE_DIR = CMakeFiles/CSA.dir
 
@@ -87,7 +87,7 @@ build CMakeFiles/CSA.dir/main.c.o: C_COMPILER__CSA_Debug /Users/raindrops/Docume
 # Link the executable CSA
 
 build CSA: C_EXECUTABLE_LINKER__CSA_Debug CMakeFiles/CSA.dir/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk
+  FLAGS = -g -arch arm64
   OBJECT_DIR = CMakeFiles/CSA.dir
   POST_BUILD = :
   PRE_LINK = :
